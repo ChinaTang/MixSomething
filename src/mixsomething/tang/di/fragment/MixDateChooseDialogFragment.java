@@ -25,7 +25,7 @@ import java.util.GregorianCalendar;
  */
 public class MixDateChooseDialogFragment extends DialogFragment{
 
-    private static final String TAG = "====MixDateChooseDialogFragment===";
+    private static final String TAG = "MixDateChooseDialog";
 
     /**
      * @return
@@ -140,7 +140,7 @@ public class MixDateChooseDialogFragment extends DialogFragment{
         Intent intent = new Intent();
         intent.putExtra(SETDATA, mDate);
         getTargetFragment().onActivityResult(getTargetRequestCode(), resultCode, intent);
-        Log.d(TAG, "数据返回成功");
+        Log.d(TAG, "");
     }
 
 }
