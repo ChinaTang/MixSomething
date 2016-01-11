@@ -124,7 +124,7 @@ public class TDHandler<Token> extends HandlerThread{
 	
 	/**
 	 * 暴露的接口，通过回调方法来实现主线程中的UI更新
-	 * @param listener
+	 * @param
 	 */
 	public interface Listener<Token>{
 		void onThumbnailDownloaded(Token token, Bitmap bitmap);
